@@ -1,0 +1,61 @@
+@media screen and (max-width: 500px) {
+   body{
+      margin: 0px;
+   }
+   .loginee{
+      width: 100%;
+   }
+   .signup{
+     width: 100%;
+   }
+   .upload_img{
+      width: 100%;
+   }
+    .login_btn{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+      }
+      .login_btn:hover{
+         transition:0.1s;
+         color: black!important;
+         cursor: pointer;
+      }
+      .sign_btn{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:10px ;
+      }
+      .sign_btn:hover{
+         transition:0.1s;
+         color: black!important;
+         cursor: pointer;
+      }
+      .loginee{
+         width: 100%;
+      }
+      .header_inside{
+         width: 70%;
+      }
+      
+  }
+  @media screen and (max-width: 930px) and (min-width:500px) {
+   .loginee{
+      width: 90%;
+   }
+   .signup{
+     width: 90%;
+   }
+   .upload_img{
+      width: 90%;
+   }
+  }
+  @media screen and (max-width: 2000px) and (min-width:930px) {
+   .loginee{
+      width: 50%;
+   }
+   .signup{
+     width: 50%;
+   }
+   .upload_img{
+      width: 50%;
+   }
+  }
