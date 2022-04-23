@@ -67,7 +67,6 @@ const Troder = () => {
                     <Menu user={userInfoData} />
                 </Route>
             </Switch>
-            
             <Switch>
                 {
                     isNew ? (
