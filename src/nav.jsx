@@ -22,10 +22,6 @@ const Nav = (props) => {
     const [effDiv3, setEffDiv3] = useState("hic_iv")
     const [userDataInfo, setUserData] = useState(props.user)
     const dispatch = useDispatch()
-
-
-
-
     const userimg = require(`C:/Users/ABDELLAOUI GHASSEN/server/Profile_Img/${userDataInfo["username"]}/${userDataInfo["img"]}`)
     const logout = () => {
         dispatch(signin())

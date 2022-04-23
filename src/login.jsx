@@ -46,7 +46,7 @@ const Login = () => {
     const [userExist, setUserExist] = useState(0);
     const [isLoad, setIsLoad] = useState(false);
     const loggedin = useSelector(state => state.isLogged)
-    const [color, setColor] = useState('#0c85f6;');
+    const [color, setColor] = useState('#3d83f2');
     const login = () => {
         const data = {
             username: user,

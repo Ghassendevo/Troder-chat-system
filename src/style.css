@@ -213,22 +213,22 @@
 }
 
 .inputt:focus {
-    border: 2px solid #02b2b2 !important;
+    border: 2px solid #3d83f2 !important;
     outline: none !important;
 }
 
 .back_login {
-    color: #02b2b2;
+    color: #3d83f2;
     font-family: verdana;
 }
 
 .back_login:hover {
-    color: #136e6e !important;
+    color: #2e6bcc !important;
     cursor: pointer;
 }
 
 .next {
-    background-color: #02b2b2;
+    background-color: #3d83f2;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
@@ -237,7 +237,7 @@
 }
 
 .next:hover {
-    background-color: #136e6e;
+    background-color: #2e6bcf;
 }
 
 .create_input {
@@ -254,7 +254,7 @@
 }
 
 .create_input:focus {
-    border: 2px solid #02b2b2 !important;
+    border: 2px solid #3d83f2 !important;
     outline: none !important;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .input_create:focus {
-    border: 2px solid #02b2b2 !important;
+    border: 2px solid #3d83f2 !important;
     outline: none !important;
 }
 
