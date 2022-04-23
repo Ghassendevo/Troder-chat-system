@@ -90,7 +90,7 @@ const Chatnew = ({ socket, send_to }) => {
                             <div style={{ backgroundColor: '', display: 'flex', alignItems: 'center' }}>
                                 {
                                     isLoading ? (
-                                        <p>ghassen</p>
+                                        <p>Loading</p>
                                     ) : <img src={require(`C:/Users/ABDELLAOUI GHASSEN/server/Profile_Img/${userUsername}/${userImg}`).default} width={40} style={{ borderRadius: '50%' }} height={40} alt="" />
                                 }
                             </div>

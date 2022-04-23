@@ -15,6 +15,8 @@ const Lastchat = ({user, socket})=>{
             setuserInfo(res.data.userInfo)
             setuserMess(res.data.userMess)
             setisLoading(false)
+        }).catch(err=>{
+            return err;
         })
     }, [])
     return(
@@ -23,7 +25,7 @@ const Lastchat = ({user, socket})=>{
                 <p>Loading...</p>
             ) : (
                 <div>
-                    sd
+                    last char user
                 </div>
             )
         }

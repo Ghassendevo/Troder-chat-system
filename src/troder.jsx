@@ -63,13 +63,11 @@ const Troder = () => {
 
             <Nav user={userInfoData} />
             <Switch>
-
-                <Route path={`${path}/Friends`}> <Friends user={userInfoData} /> </Route>
-                <Route path="/Troder"> <Menu user={userInfoData} /> </Route>
+                <Route path="/Troder">
+                    <Menu user={userInfoData} />
+                </Route>
             </Switch>
-            <Route path="/Troder">
-                <Lastchat user={userInfoData} socket={socket} />
-            </Route>
+            
             <Switch>
                 {
                     isNew ? (
