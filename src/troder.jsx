@@ -66,6 +66,7 @@ const Troder = () => {
                 <Route path="/Troder">
                     <Menu user={userInfoData} />
                 </Route>
+                
             </Switch>
             <Switch>
                 {
