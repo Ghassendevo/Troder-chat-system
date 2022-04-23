@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "nodemon": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-form": "^0.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.4.1"
+  }
+}
